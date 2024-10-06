@@ -986,21 +986,6 @@ body {
   display: inline-block;
 }
 
-footer .container {
-  padding: 20px;
-}
-
-footer .footer-logo {
-  display: block;
-  margin: 0 auto;
-  max-width: 150px;
-}
-
-footer .footer-logo img {
-  max-width: 100%;
-  height: auto;
-}
-
 /*-----------------------------------*\
   #BACK TO TOP
 \*-----------------------------------*/
@@ -1476,4 +1461,22 @@ footer .footer-logo img {
     top: 0;
     left: 0;
   }
+}
+
+/* Sponsors Section */
+.sponsors {
+  background-color: #f5f1eb; /* Slightly darker grey background color */
+  padding: 40px 0; /* Add some padding to the section */
+}
+
+.sponsor-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+.sponsor-logo img {
+  max-width: 100%;
+  height: auto;
 }
